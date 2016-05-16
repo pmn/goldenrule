@@ -1,0 +1,23 @@
+{
+  "name": "goldenrule",
+  "version": "0.0.1",
+  "description": "Require someone says something nice about the PR author before merging",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmn/goldenrule.git"
+  },
+  "author": "Paul Nakata",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pmn/goldenrule/issues"
+  },
+  "homepage": "https://github.com/pmn/goldenrule#readme",
+  "dependencies": {
+    "octokat": "^0.5.0-beta.0",
+    "sentiment": "^1.0.6"
+  }
+}
